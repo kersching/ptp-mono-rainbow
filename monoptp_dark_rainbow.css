@@ -168,7 +168,7 @@ a.alert-bar__link:hover { padding-left: 18px; }
 #userinfo_minor { position:relative; height:30px; width:485px; *top:-120px; float:right; margin-right:10px; padding:10px; white-space:nowrap; background:rgba(221,221,221,.075)!important; border-bottom-left-radius:5px;  border-bottom-right-radius:5px;  }
 #userinfo_minor li { position:relative; float:left; }
 #userinfo_minor li a.new-subscriptions:after { content:"!"; }
-#userinfo_minor li a { display:block; font-size:10px; line-height:11px; color:#aaa; padding:0px!important; margin:0px!important; }
+#userinfo_minor li a { display:block; font-size:10px; line-height:11px; color:#aaa; padding:0px!important; margin:-1px!important; }
 #userinfo_minor li a:hover { font-size:10px; line-height:11px; color:#fff; }
 #userinfo_minor [class$="drop-down-menu-opener"] [class$="drop-down-menu"] { display:none; }
 #userinfo_minor [class$="drop-down-menu-opener"]:hover [class$="drop-down-menu"] { display:block; position:absolute; z-index:2; background:#111!important; padding:10px; margin-left:-10px; }
@@ -218,7 +218,7 @@ textarea { resize:vertical!important; display:block; width:550px; height:120px; 
 .search-bar { margin-top:2px; top:180px; float:left; background:rgba(221,221,221,.075)!important; border-bottom-left-radius:5px; border-bottom-right-radius:5px; position:relative; width:1000px; height:45px; padding:10px; z-index:1; }
 .search-bar input { width:13.13%; padding:5px; font-size:11px; color:#aaa; line-height:10px; }
 .search-bar ul, .search-bar form { display:inline; }
-.search-bar ul li { margin-right:10px!important; }
+.search-bar ul li { margin-right:9px!important; }
 .search-bar ul li :last-child { margin-right:0px!important; }
 .search-bar__results__list-item--is-highlighted a { text-decoration:underline; color:#42aacd; }
 
