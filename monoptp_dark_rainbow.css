@@ -176,7 +176,7 @@ a.alert-bar__link:hover { padding-left: 18px; }
 #userinfo_minor [class$="drop-down-menu-opener"]:hover [class$="drop-down-menu"] li a { width:100px; }
 [class$="drop-down-menu"] { display:block; float:left; }
 [class$="drop-down-menu"] li { display:block; }
-[class$="user-info-bar__link--highlighted"] { text-decoration:underline; color:#3d81b1; }
+[class$="user-info-bar__link--highlighted"] { text-decoration:none; color:#3d81b1; }
 
 #userinfo_major { line-height:11px; position:absolute; top:180px; padding:10px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; right:0; text-align:right; white-space:nowrap; z-index:1; }
 #userinfo_major .brackets strong { font-weight:normal!important; }
